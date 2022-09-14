@@ -12,4 +12,9 @@ module.exports = withModuleFederation({
    *   ['app2', 'https://app2.example.com'],
    * ]
    */
+  remotes: [
+    ['about', 'https://bndynet.github.io/mfe/about'],
+    ['cart', 'https://bndynet.github.io/mfe/cart'],
+    ['shop', 'https://bndynet.github.io/mfe/shop'],
+  ],
 });

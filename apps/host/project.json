@@ -1,6 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/host/src",
+  "implicitDependencies": ["about", "shop", "cart"],
   "prefix": "mfe",
   "targets": {
     "build": {
